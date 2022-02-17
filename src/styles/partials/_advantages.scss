@@ -1,0 +1,40 @@
+.section__advantages {
+  margin-top: 79.5px;
+}
+
+.advantage__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-family: 'MuseoSans-Black', sans-serif;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px 75px;
+
+  .advantage__item {
+    display: flex;
+    align-items: center;
+    height: 144px;
+    width: 353px;
+    background: url("./../assets/images/advantage__background.svg") center center no-repeat;
+    position: relative;
+
+    &:nth-child(2) {
+      width: 410px;
+    }
+
+    &:after {
+      content: '';
+      background: url("./../assets/images/checkmark.svg") center center no-repeat;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -15px;
+      width: 63px;
+      height: 55px;
+    }
+  }
+}

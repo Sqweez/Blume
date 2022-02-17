@@ -1,0 +1,17 @@
+.section__properties {
+  height: 765px;
+  background: url("./../assets/images/properties-background.png") no-repeat right;
+}
+
+.property__title {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 72px;
+  line-height: 77.4px;
+
+  .additional__title {
+    color: $color-black;
+    font-size: 48px;
+    line-height: 51.6px;
+  }
+}
